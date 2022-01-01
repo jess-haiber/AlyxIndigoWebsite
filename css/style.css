@@ -1,0 +1,91 @@
+body {
+    font-size: 1.6em;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    background-color: #D3FEFF;
+}
+
+.center {
+    text-align: center;
+}
+
+.largerText {
+    font-size: 1.8em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+div#header{
+    background-color: #00CFD5;
+    padding-bottom: .3em;
+    padding-top: .3em
+    
+}
+
+div#navigation {
+    background-color: #05BBC0;
+    padding: .1em 0 .1em 0;
+    border-top: 2px solid #09686B;
+    border-bottom: 2px solid #09686B;
+    text-align: center;
+}
+
+div#navigation a {
+    padding: 0 .5em 0 .5em;
+    background-color: aliceblue;
+    border-radius: 25px;
+    border: 1px solid #09686B;
+    margin: .1em 0 0 .5em;
+    text-decoration: none;
+}
+
+/* unvisited link */
+div#navigation a:link {
+  color: black;
+}
+
+/* visited link */
+div#navigation a:visited {
+  color: black;
+}
+
+/* mouse over link */
+div#navigation a:hover {
+  color: black;
+}
+
+/* selected link */
+div#navigation a:active {
+  color: black;
+}
+
+div#sidebar {
+    float: left;
+    width: 25%;
+    margin-left: 1em;
+    border-right: 1px solid black;
+    font-size: 0.7em
+}
+
+div#main {
+    float: right;
+    width: 60%;
+    margin-right: 3em;
+    font-size: 0.7em
+}
+
+div#main h3 {
+    font-size: 1em;
+    border-top: 2px solid black;
+    padding-top: 0.5em
+}
+
+div#footer{
+    display: block;
+    width: 100%;
+}
